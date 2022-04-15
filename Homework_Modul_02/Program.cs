@@ -103,11 +103,11 @@ namespace Homework_Modul_02
             return retVal;
         }
 
-        //шифрование текста
+        //шифровка
         public string Encrypt(string plainMessage, int key)
             => CodeEncode(plainMessage, key);
 
-        //дешифрование текста
+        //дешифровка
         public string Decrypt(string encryptedMessage, int key)
             => CodeEncode(encryptedMessage, -key);
     }
